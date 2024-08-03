@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Layout: FC<{ children?: ReactNode }> = ({ children }) => {
   return (
     <>
-      <main className="font-sans bg-primary">
+      <main className="font-sans text-[15px] lg:text-[16px] bg-primary">
         <Header />
         {children}
       </main>

@@ -15,7 +15,7 @@ const Footer: React.FC<{ className: string }> = ({ className }) => {
         <div className="font-crete text-[38px] text-center">
           Get latest posts delivered right to your inbox
         </div>
-        <div className="mt-10 mb-20 flex mx-auto">
+        <div className="mt-10 mb-20 flex flex-col lg:flex-row mx-auto">
           <input
             type="email"
             placeholder="Your email address"
@@ -23,7 +23,7 @@ const Footer: React.FC<{ className: string }> = ({ className }) => {
           />
           <button
             type="submit"
-            className="flex items-center gap-x-2 border-[#ddd] bg-white border-solid border-2 ml-4 px-4 text-[#222] rounded-mds"
+            className="flex items-center justify-center h-[50px] gap-x-2 border-[#ddd] bg-white border-solid border-2 mt-4 lg:mt-0 lg:ml-4 px-4 text-[#222] rounded-mds"
           >
             <IoMdPersonAdd /> Join Today
           </button>
